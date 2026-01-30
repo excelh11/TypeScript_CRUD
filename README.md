@@ -28,3 +28,6 @@ VS Code의 인텔리센스(IntelliSense)와 TypeScript 컴파일러를 통해 �
 Node.js가 설치되어 있어야 하며, 터미널에서 아래 명령어로 TypeScript를 설치합니다.
 ```bash
 npm install typescript
+
+### 2. TypeScript 컴파일
+``` npx tsc
