@@ -12,10 +12,15 @@
 </head>
 <body>
     <h2>TypeScript CRUD Todo</h2>
-    <div>
-        <input type="text" id="todoInput" placeholder="할 일을 입력하세요">
-        <button id="addBtn">추가</button>
-    </div>
+<div>
+    <select id="prioritySelect">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+    <input type="text" id="todoInput" placeholder="할 일을 입력하세요">
+    <button id="addBtn">추가</button>
+</div>
     <div id="todoList"></div>
 
    <script src="dist/app.js"></script>
