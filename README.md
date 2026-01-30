@@ -1,6 +1,6 @@
 # TypeScript CRUD Mini Project
 
-TypeScript의 **인터섹션 타입(Intersection Types)**을 활용하여 만든 간단한 할 일 관리(Todo List) 애플리케이션입니다. 
+TypeScript의 **인터섹션 타입(Intersection Types)**을 활용하여 만든 간단한 할 일 관리(Todo List) 애플리케이션입니다. <br>
 VS Code의 인텔리센스(IntelliSense)와 TypeScript 컴파일러를 통해 타입 안정성을 확보하며 개발되었습니다.
 
 ## ✨ 주요 기능
@@ -33,3 +33,4 @@ npm install typescript
 ```bash
 npx tsc
 ```
+### 3. index.html 실행
