@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>TS CRUD Mini Project</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 1.6; }
+        .todo-item { border-bottom: 1px solid #eee; padding: 10px; display: flex; align-items: center; }
+        .completed { text-decoration: line-through; color: gray; }
+        button { margin-left: 10px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>TypeScript CRUD Todo</h2>
+    <div>
+        <input type="text" id="todoInput" placeholder="할 일을 입력하세요">
+        <button id="addBtn">추가</button>
+    </div>
+    <div id="todoList"></div>
+
+   <script src="dist/app.js"></script>
+</body>
+</html>
