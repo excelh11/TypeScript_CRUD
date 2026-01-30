@@ -2,6 +2,9 @@
 
 TypeScript의 **인터섹션 타입(Intersection Types)**을 활용하여 만든 간단한 할 일 관리(Todo List) 애플리케이션입니다. <br>
 VS Code의 인텔리센스(IntelliSense)와 TypeScript 컴파일러를 통해 타입 안정성을 확보하며 개발되었습니다.
+TypeScript의 기본 키워드 학습 한후 어떻게 적용되는지 확인합니다.<br>
+Type Alias (타입 별칭), Literal Types (리터럴 타입), Intersection Types (인터섹션 타입), Readonly (읽기 전용 속성)<br>
+Function Signature (함수 시그니처), void, never, Union Types (유니온 타입)
 
 ## ✨ 주요 기능
 - **Create**: 메인 입력창에서 할 일 입력 후 `추가` 버튼 클릭 또는 `Enter` 키로 등록
